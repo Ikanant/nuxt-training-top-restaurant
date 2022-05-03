@@ -1,5 +1,5 @@
 <template>
   <div>
-    <Restaurant />
+    <Nav />
   </div>
 </template>
