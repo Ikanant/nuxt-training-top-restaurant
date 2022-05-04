@@ -1,12 +1,8 @@
 <template>
-  <div>
-    <Nav />
-    <div class="container">
-      <h1>
-        Welcome! - Time to learn NUXT 😁
-      </h1>
-      <a href="/restaurants"> Go to top restaurants in the area</a>
-    </div>
+  <Nav />
+  <div class="container">
+    <h1>Welcome! - Time to learn NUXT 😁</h1>
+    <a href="/restaurants"> Go to top restaurants in the area</a>
   </div>
 </template>
 
