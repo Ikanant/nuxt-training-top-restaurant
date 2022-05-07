@@ -1,5 +1,3 @@
 <template>
-  <Nav />
-  
   <RestaurantTable />
 </template>

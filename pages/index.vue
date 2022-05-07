@@ -1,5 +1,4 @@
 <template>
-  <Nav />
   <div class="container">
     <h1>Welcome! - Time to learn NUXT 😁</h1>
     <a href="/restaurants"> Go to top restaurants in the area</a>
