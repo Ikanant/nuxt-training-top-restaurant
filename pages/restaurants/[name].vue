@@ -26,5 +26,7 @@ const restaurant = restaurants.find((r) => r.name === name);
       </div>
       <p class="content">{{ restaurant.content }}</p>
     </div>
+
+    <RestaurantAd />
   </div>
 </template>
