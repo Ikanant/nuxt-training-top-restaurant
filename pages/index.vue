@@ -1,7 +1,20 @@
 <template>
-  <div class="container">
-    <h1>Welcome! - Time to learn NUXT 😁</h1>
-    <a href="/restaurants"> Go to top restaurants in the area</a>
+  <div>
+    <Html :lang="dynamic > 50 ? 'en-GB' : 'en-US'">
+      <Head>
+        <Title>Welcome! - Time to learn NUXT 😁 </Title>
+        <Meta name="description" content="My page is cool" />
+        <Link
+          rel="preload"
+          href="https://www.iconpacks.net/icons/2/free-sad-face-icon-2691-thumb.png"
+          as="script"
+        />
+      </Head>
+    </Html>
+    <div class="container">
+      <h1>Welcome to Restaurantly</h1>
+      <NuxtLink to="/restaurants">Go to restaurants</NuxtLink>
+    </div>
   </div>
 </template>
 
